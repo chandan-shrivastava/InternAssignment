@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS translation_history (
 drop_table_query = '''
 DROP TABLE IF EXISTS translation_history;
 '''
-execute_query(drop_table_query)
+# execute_query(drop_table_query)
 execute_query(create_table_query)
 
 @app.route('/translate', methods=['POST'])
