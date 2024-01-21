@@ -1,0 +1,7 @@
+Flask==2.0.1
+mysql-connector-python==8.0.27
+transformers==4.16.1
+Werkzeug==2.2.2
+tensorflow==2.8.0
+protobuf==3.9.2
+sentencepiece
